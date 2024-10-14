@@ -33,18 +33,18 @@ const Footer = () => {
                     <Image
                       src="/images/logo/logo.png"
                       alt="logo"
-                      width={40}
-                      height={40}
+                      width={35}
+                      height={35}
                       className="hidden dark:block"
                     />
                     <Image
                       src="/images/logo/logo.png"
                       alt="logo"
-                      width={40}
-                      height={40}
+                      width={35}
+                      height={35}
                       className="dark:hidden"
                     />
-                    <span className="text-3xl">Tennet™</span>
+                    <span className="text-3xl">Veil Protocol</span>
                   </div>
                 </a>
 
@@ -60,7 +60,7 @@ const Footer = () => {
                   href="#"
                   className="text-itemtitle font-medium text-black dark:text-white"
                 >
-                  support@tennet.com
+                  contact@veilprotocol.com
                 </a>
               </motion.div>
 

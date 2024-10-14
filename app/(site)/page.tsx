@@ -16,7 +16,7 @@ import SectionHeader from "@/components/Common/SectionHeader";
 import { FaArrowRight } from "react-icons/fa";
 
 export const metadata: Metadata = {
-  title: "Tennet Protocol",
+  title: "Veil Protocol",
   description: "This is next-gen decentralized AI",
   icons: {
     icon: "/images/logo/logo.png",
@@ -43,7 +43,7 @@ export default function Home() {
           A Secure Foundation for Decentralized AI
         </h2>
         <p className="mb-6 text-lg text-gray-300">
-          Tennet Protocol reshapes the landscape of AI by decentralizing model
+          Veil Protocol reshapes the landscape of AI by decentralizing model
           training and validation. We unlock the power of community-driven AI,
           removing central points of failure and opening limitless possibilities
           for autonomous intelligence.
@@ -81,7 +81,7 @@ export default function Home() {
       <div className="my-10">
         <section className="space-y-4 text-center">
           <h2 className="text-3xl font-bold">
-            Ready to Build on Tennet Protocol?
+            Ready to Build on Veil Protocol?
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">
             Join our community of developers and innovators shaping the future

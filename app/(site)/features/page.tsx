@@ -13,7 +13,7 @@ const FeaturesPage = () => {
         <SectionHeader
           headerInfo={{
             title: "",
-            subtitle: "Features of Tennet",
+            subtitle: "Features of Veil Protocol",
             description: `Fully integrated decentralized AI framework with seamless mobile app connectivity`,
           }}
         />
@@ -22,7 +22,7 @@ const FeaturesPage = () => {
       <div className="my-10">
         <section className="space-y-4 text-center">
           <h2 className="text-3xl font-bold">
-            Ready to Build on Tennet Protocol?
+            Ready to Build on Veil Protocol?
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">
             Join our community of developers and innovators shaping the future

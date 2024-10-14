@@ -37,7 +37,7 @@ export default function PerformancePage() {
               title: "",
               subtitle: "Performance Metrics",
               description:
-                "Discover how Tennet Protocol is revolutionizing decentralized AI performance",
+                "Discover how Veil Protocol is revolutionizing decentralized AI performance",
             }}
           />
         </div>
@@ -106,7 +106,7 @@ export default function PerformancePage() {
         <div className="my-10">
           <section className="space-y-4 text-center">
             <h2 className="text-3xl font-bold">
-              Ready to Build on Tennet Protocol?
+              Ready to Build on Veil Protocol?
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-gray-400">
               Join our community of developers and innovators shaping the future

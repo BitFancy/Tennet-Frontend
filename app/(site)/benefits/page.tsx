@@ -12,9 +12,9 @@ const BenefitsPage = () => {
         <SectionHeader
           headerInfo={{
             title: "",
-            subtitle: "Benefits of Tennet Protocol",
+            subtitle: "Benefits of Veil Protocol",
             description:
-              "The Tennet Protocol features network efficiency, decentralized performance, security, and reduced centralization for improved AI interactions.",
+              "The Veil Protocol features network efficiency, decentralized performance, security, and reduced centralization for improved AI interactions.",
           }}
         />
         <Benefit />
@@ -33,7 +33,7 @@ const BenefitsPage = () => {
               <thead className="bg-gray-200 text-xl uppercase text-gray-600">
                 <tr>
                   <th className="border-b px-6 py-3">Feature/Attribute</th>
-                  <th className="border-b px-6 py-3">Tennet Protocol</th>
+                  <th className="border-b px-6 py-3">Veil Protocol</th>
                   <th className="border-b px-6 py-3">
                     Traditional AI Protocols
                   </th>
@@ -93,7 +93,7 @@ const BenefitsPage = () => {
       <div className="my-10">
         <section className="space-y-4 text-center">
           <h2 className="text-3xl font-bold">
-            Ready to Build on Tennet Protocol?
+            Ready to Build on Veil Protocol?
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">
             Join our community of developers and innovators shaping the future

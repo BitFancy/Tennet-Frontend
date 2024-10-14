@@ -1,4 +1,4 @@
-Tennet Protocol Frontend
+Veil Protocol Frontend
 
 ## Installation
 

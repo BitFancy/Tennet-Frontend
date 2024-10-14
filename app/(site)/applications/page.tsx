@@ -12,9 +12,9 @@ const ApplicationsPage = () => {
         <SectionHeader
           headerInfo={{
             title: "",
-            subtitle: "Applications of Tennet Protocol",
+            subtitle: "Applications of Veil Protocol",
             description:
-              "Explore how Tennet Protocol enables large-scale AI/ML training, decentralized networking, AI-driven solutions, and blockchain integration to revolutionize AI capabilities through a community-driven approach.",
+              "Explore how Veil Protocol enables large-scale AI/ML training, decentralized networking, AI-driven solutions, and blockchain integration to revolutionize AI capabilities through a community-driven approach.",
           }}
         />
         <Applications />
@@ -22,7 +22,7 @@ const ApplicationsPage = () => {
       <div className="my-10">
         <section className="space-y-4 text-center">
           <h2 className="text-3xl font-bold">
-            Ready to Build on Tennet Protocol?
+            Ready to Build on Veil Protocol?
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">
             Join our community of developers and innovators shaping the future

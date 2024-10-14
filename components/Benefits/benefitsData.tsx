@@ -23,7 +23,7 @@ const benefitsData: Benefit[] = [
     icon: "/images/icon/icon-04.svg",
     title: "Reduced Centralization",
     description:
-      "Tennet Protocol eliminates the bottlenecks of centralized AI, allowing direct connections between users and validators for a cleaner, more efficient AI ecosystem.",
+      "Veil Protocol eliminates the bottlenecks of centralized AI, allowing direct connections between users and validators for a cleaner, more efficient AI ecosystem.",
   },
 ];
 
