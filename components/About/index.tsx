@@ -134,9 +134,10 @@ const About = () => {
                 Tennet Protocol
               </h2>
               <p className="text-2xl">
-              Advancing the quest for autonomous machine learning by decentralizing AI operations to perform more efficient, scalable, and personal tasks directly on devices.
+                Advancing the quest for autonomous machine learning by
+                decentralizing AI operations to perform more efficient,
+                scalable, and personal tasks directly on devices.
               </p>
-              
             </motion.div>
             <motion.div
               variants={{
@@ -157,13 +158,13 @@ const About = () => {
               className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-1/2"
             >
               <Image
-                src="./images/about/about-light-02.svg"
+                src="./images/hero/banner.png"
                 alt="About"
                 className="dark:hidden"
                 fill
               />
               <Image
-                src="./images/about/about-dark-02.svg"
+                src="./images/hero/banner.png"
                 alt="About"
                 className="hidden dark:block"
                 fill
