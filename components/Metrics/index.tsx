@@ -65,7 +65,7 @@ const Metric = ({ metric }: { metric: METRIC }) => {
             <div className="bg-gray-50 px-5 py-3">
               <div className="text-sm">
                 <a
-                  href="#"
+                  href="/support"
                   className="font-medium text-gray-700 hover:text-gray-900"
                 >
                   View details

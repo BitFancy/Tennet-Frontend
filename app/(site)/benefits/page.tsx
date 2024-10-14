@@ -30,7 +30,7 @@ const BenefitsPage = () => {
         <div className="mt-20 flex justify-center">
           <div className="overflow-x-auto rounded-lg shadow-md md:w-4/5 lg:w-2/3">
             <table className="min-w-full text-left text-sm text-gray-700">
-              <thead className="bg-gray-200 text-xl uppercase text-gray-600">
+              <thead className="bg-gray-200 text-xl uppercase text-gray-600 dark:bg-gray-700 dark:text-white">
                 <tr>
                   <th className="border-b px-6 py-3">Feature/Attribute</th>
                   <th className="border-b px-6 py-3">Veil Protocol</th>
@@ -40,29 +40,29 @@ const BenefitsPage = () => {
                 </tr>
               </thead>
               <tbody>
-                <tr className="border-b even:bg-gray-50 hover:bg-gray-100">
+                <tr className="border-b even:bg-gray-50 hover:bg-gray-100 dark:bg-gray-500 dark:text-white">
                   <td className="px-6 py-4">Decentralization</td>
                   <td className="px-6 py-4">
                     Fully decentralized architecture
                   </td>
                   <td className="px-6 py-4">Centralized control</td>
                 </tr>
-                <tr className="border-b even:bg-gray-50 hover:bg-gray-100">
+                <tr className="border-b even:bg-gray-50 hover:bg-gray-100 dark:bg-gray-600 dark:text-white">
                   <td className="px-6 py-4">Scalability</td>
                   <td className="px-6 py-4">5X scalability increase</td>
                   <td className="px-6 py-4">Limited scalability</td>
                 </tr>
-                <tr className="border-b even:bg-gray-50 hover:bg-gray-100">
+                <tr className="border-b even:bg-gray-50 hover:bg-gray-100 dark:bg-gray-500 dark:text-white">
                   <td className="px-6 py-4">Efficiency</td>
                   <td className="px-6 py-4">3X validation throughput gains</td>
                   <td className="px-6 py-4">Slower processing speeds</td>
                 </tr>
-                <tr className="border-b even:bg-gray-50 hover:bg-gray-100">
+                <tr className="border-b even:bg-gray-50 hover:bg-gray-100 dark:bg-gray-600 dark:text-white">
                   <td className="px-6 py-4">Task Capacity</td>
                   <td className="px-6 py-4">Supports 2X more AI tasks</td>
                   <td className="px-6 py-4">Limited task handling</td>
                 </tr>
-                <tr className="border-b even:bg-gray-50 hover:bg-gray-100">
+                <tr className="border-b even:bg-gray-50 hover:bg-gray-100 dark:bg-gray-500 dark:text-white">
                   <td className="px-6 py-4">Security</td>
                   <td className="px-6 py-4">
                     Built-in decentralized governance
@@ -71,14 +71,14 @@ const BenefitsPage = () => {
                     Vulnerable to single points of failure
                   </td>
                 </tr>
-                <tr className="border-b even:bg-gray-50 hover:bg-gray-100">
+                <tr className="border-b even:bg-gray-50 hover:bg-gray-100 dark:bg-gray-600 dark:text-white">
                   <td className="px-6 py-4">User Interaction</td>
                   <td className="px-6 py-4">
                     Direct connections between users
                   </td>
                   <td className="px-6 py-4">Mediated by central servers</td>
                 </tr>
-                <tr className="border-b even:bg-gray-50 hover:bg-gray-100">
+                <tr className="border-b even:bg-gray-50 hover:bg-gray-100 dark:bg-gray-500 dark:text-white">
                   <td className="px-6 py-4">Flexibility</td>
                   <td className="px-6 py-4">
                     High flexibility with task handling

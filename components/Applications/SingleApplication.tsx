@@ -42,13 +42,17 @@ const SingleApplication = ({ application }: { application: Application }) => {
                 className="h-full w-full object-cover"
               />
             </div>
-            <div className="flex items-center p-6 md:w-1/2">
+            <div className="flex items-center p-6 dark:bg-gray-700 md:w-1/2">
               <div>
-                <h3 className="mb-2 text-2xl font-bold">{title}</h3>
-                <p className="mb-4 text-gray-600">{description}</p>
+                <h3 className="mb-2 text-2xl font-bold dark:text-white">
+                  {title}
+                </h3>
+                <p className="mb-4 text-gray-600 dark:text-gray-300">
+                  {description}
+                </p>
                 <a
-                  href="#"
-                  className="flex items-center font-semibold text-blue-500"
+                  href="/support"
+                  className="flex items-center font-semibold text-gray-200"
                 >
                   READ MORE
                   <svg

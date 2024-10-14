@@ -31,14 +31,14 @@ const features = [
 
 export default function ProductsPage() {
   return (
-    <div className="bg-white">
+    <div className="bg-white dark:bg-black">
       <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
         <div className="mt-20 text-left">
           <h1 className="text-base font-semibold uppercase tracking-wide text-gray-600">
             The Decentralized AI Engine for Everyone
           </h1>
           <span
-            className="mt-1 text-4xl font-extrabold text-gray-900 sm:text-5xl sm:tracking-tight lg:text-6xl"
+            className="mt-1 text-4xl font-extrabold text-gray-900 dark:text-white sm:text-5xl sm:tracking-tight lg:text-6xl"
             style={{ fontSize: "100px" }}
           >
             Tennet™
@@ -59,12 +59,12 @@ export default function ProductsPage() {
         </div>
 
         <div className="mt-16 overflow-hidden rounded-lg bg-gray-50 shadow-lg">
-          <div className="relative mx-auto max-w-7xl px-4 py-8 sm:px-6 lg:px-8 lg:py-12">
+          <div className="relative mx-auto max-w-7xl px-4 py-8 dark:bg-gray-700 sm:px-6 lg:px-8 lg:py-12">
             <div className="flex flex-col items-center justify-center text-center">
-              <h3 className="text-center text-5xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+              <h3 className="text-center text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
                 Next-gen decentralized AI
               </h3>
-              <p className="mt-3 text-center text-lg text-gray-500 lg:w-1/2">
+              <p className="mt-3 text-center text-lg text-gray-500 dark:text-gray-300 lg:w-1/2">
                 Tennet™ enables direct integration of multiple AI models via
                 Bittensor's TAO subnet, providing unparalleled scalability and
                 efficiency for decentralized AI operations.
@@ -82,11 +82,11 @@ export default function ProductsPage() {
                             aria-hidden="true"
                           />
                         </div>
-                        <p className="ml-16 text-lg font-medium leading-6 text-gray-900">
+                        <p className="ml-16 text-lg font-medium leading-6 text-gray-900 dark:text-white">
                           {feature.name}
                         </p>
                       </dt>
-                      <dd className="ml-16 mt-2 text-base text-gray-500">
+                      <dd className="ml-16 mt-2 text-base text-gray-500 dark:text-gray-300">
                         {feature.description}
                       </dd>
                     </div>
@@ -109,7 +109,7 @@ export default function ProductsPage() {
         <div className="mt-12 sm:mt-16 lg:mt-20">
           <div className="lg:grid lg:grid-cols-3 lg:items-center lg:gap-8">
             <div className="lg:col-span-2">
-              <h3 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-5xl">
+              <h3 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-5xl dark:text-white">
                 Use Cases
               </h3>
               <p className="mt-3 text-lg text-gray-500">
@@ -119,7 +119,7 @@ export default function ProductsPage() {
               <div className="mt-6 space-y-4">
                 <div className="flex">
                   <ArrowRight
-                    className="h-6 w-6 flex-shrink-0 text-green-500"
+                    className="h-6 w-6 flex-shrink-0 text-gray-500"
                     aria-hidden="true"
                   />
                   <p className="ml-3 text-base text-gray-500">
@@ -128,7 +128,7 @@ export default function ProductsPage() {
                 </div>
                 <div className="flex">
                   <ArrowRight
-                    className="h-6 w-6 flex-shrink-0 text-green-500"
+                    className="h-6 w-6 flex-shrink-0 text-gray-500"
                     aria-hidden="true"
                   />
                   <p className="ml-3 text-base text-gray-500">
@@ -137,7 +137,7 @@ export default function ProductsPage() {
                 </div>
                 <div className="flex">
                   <ArrowRight
-                    className="h-6 w-6 flex-shrink-0 text-green-500"
+                    className="h-6 w-6 flex-shrink-0 text-gray-500"
                     aria-hidden="true"
                   />
                   <p className="ml-3 text-base text-gray-500">
@@ -159,7 +159,7 @@ export default function ProductsPage() {
         </div>
         <div className="my-10">
           <section className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-3xl font-bold dark:text-white">
               Ready to Build on Veil Protocol?
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-gray-400">
@@ -169,7 +169,7 @@ export default function ProductsPage() {
             <div className="flex justify-center">
               <a
                 href="/support"
-                className="inline-flex items-center gap-2.5 rounded-md bg-gray-700 px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
+                className="inline-flex items-center gap-2.5 rounded-md bg-gray-700 px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-gray-700 dark:text-white"
               >
                 Get Started
                 <FaArrowRight />

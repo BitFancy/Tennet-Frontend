@@ -90,7 +90,7 @@ const Footer = () => {
                   <ul className="grid grid-cols-2 gap-4">
                     <li>
                       <a
-                        href="#"
+                        href="/"
                         className="mb-3 inline-block hover:text-primary"
                       >
                         Home

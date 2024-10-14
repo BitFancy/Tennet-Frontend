@@ -29,15 +29,19 @@ export default function Home() {
     <main>
       <Hero />
       <Brands />
-      <About />
-      <SectionHeader
-        headerInfo={{
-          title: "",
-          subtitle: "The Future of AI is Here",
-          description:
-            "The quest for decentralized, autonomous AI is accelerating, pushing the boundaries of machine learning beyond traditional limits.",
-        }}
-      />
+      <div className="mt-15">
+        <About />
+      </div>
+      <div className="mt-15">
+        <SectionHeader
+          headerInfo={{
+            title: "",
+            subtitle: "The Future of AI is Here",
+            description:
+              "The quest for decentralized, autonomous AI is accelerating, pushing the boundaries of machine learning beyond traditional limits.",
+          }}
+        />
+      </div>
       <section className="mx-auto mb-20 mt-10 max-w-4xl rounded-lg bg-gray-800 p-8">
         <h2 className="mb-6 text-center text-3xl font-semibold">
           A Secure Foundation for Decentralized AI
@@ -78,7 +82,7 @@ export default function Home() {
       {/* <FAQ /> */}
       {/* <Testimonial /> */}
       {/* <Pricing /> */}
-      <div className="my-10">
+      <div className="my-15">
         <section className="space-y-4 text-center">
           <h2 className="text-3xl font-bold">
             Ready to Build on Veil Protocol?
@@ -90,7 +94,7 @@ export default function Home() {
           <div className="flex justify-center">
             <a
               href="#"
-              className="inline-flex items-center gap-2.5 rounded-md bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
+              className="inline-flex items-center gap-2.5 rounded-md bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-gray-900"
             >
               Get Started
               <FaArrowRight />
