@@ -35,7 +35,7 @@ const SingleApplication = ({ application }: { application: Application }) => {
           >
             <div className="md:w-1/2">
               <Image
-                src="/images/applications/application_1.png"
+                src="/images/hero/banner.png"
                 alt={title}
                 width={600}
                 height={400}
