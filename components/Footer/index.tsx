@@ -29,7 +29,23 @@ const Footer = () => {
                 className="animate_top w-1/2 lg:w-1/4"
               >
                 <a href="/" className="relative text-2xl font-bold">
-                  TENNET PROTOCOL
+                  <div className="flex flex-row items-center gap-2 font-bold">
+                    <Image
+                      src="/images/logo/logo.png"
+                      alt="logo"
+                      width={40}
+                      height={40}
+                      className="hidden dark:block"
+                    />
+                    <Image
+                      src="/images/logo/logo.png"
+                      alt="logo"
+                      width={40}
+                      height={40}
+                      className="dark:hidden"
+                    />
+                    <span className="text-3xl">Tennet™</span>
+                  </div>
                 </a>
 
                 <p className="mb-10 mt-5">
@@ -144,7 +160,7 @@ const Footer = () => {
                   {/* <h4 className="mb-9 text-itemtitle2 font-medium text-black dark:text-white">
                     Newsletter
                   </h4> */}
-                  <p className="mb-4 w-[90%] mt-9">
+                  <p className="mb-4 mt-9 w-[90%]">
                     Subscribe to receive future updates
                   </p>
 

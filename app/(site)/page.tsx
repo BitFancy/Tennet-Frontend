@@ -18,6 +18,9 @@ import { FaArrowRight } from "react-icons/fa";
 export const metadata: Metadata = {
   title: "Tennet Protocol",
   description: "This is next-gen decentralized AI",
+  icons: {
+    icon: "/images/logo/logo.png",
+  },
   // other metadata
 };
 
