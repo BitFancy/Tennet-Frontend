@@ -27,7 +27,7 @@ const Hero = () => {
           </p>
           <div className="flex justify-center">
             <a
-              href="#"
+              href="/support"
               className="inline-flex items-center gap-2.5 rounded-md bg-black px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-black"
             >
               Get Started
