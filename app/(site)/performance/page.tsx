@@ -30,7 +30,7 @@ export default function PerformancePage() {
 
   return (
     <>
-      <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-20">
+      <section className="overflow-hidden pb-20 pt-25 md:pt-20 xl:pb-25 xl:pt-20">
         <div className="-mb-20 mt-20">
           <SectionHeader
             headerInfo={{
@@ -42,13 +42,13 @@ export default function PerformancePage() {
           />
         </div>
       </section>
-      <div className="min-h-screen px-4 py-12 sm:px-6 lg:px-8">
+      <div className="min-h-screen px-4 py-6 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-7xl">
-          <div className="mt-16">
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">
+          <div className="mt-6">
+            <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white">
               Current Performance Highlights
             </h2>
-            <div className="mt-6 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
+            <div className="mt-10 grid grid-cols-1 gap-5 sm:grid-cols-2 lg:grid-cols-4">
               {metricData.map((metric) => (
                 <Metric metric={metric} />
               ))}
@@ -56,13 +56,13 @@ export default function PerformancePage() {
           </div>
 
           <div className="my-16">
-            <h2 className="text-3xl font-extrabold text-gray-900 dark:text-white">
+            <h2 className="text-4xl font-extrabold text-gray-900 dark:text-white">
               Future Projections
             </h2>
             <p className="mt-4 max-w-2xl text-xl text-gray-500 dark:text-white">
               Estimated growth in key performance areas over the next five years
             </p>
-            <div className="mt-8 rounded-lg bg-white p-6 shadow dark:bg-gray-700">
+            <div className="mt-10 rounded-lg bg-white p-6 shadow dark:bg-gray-700">
               <div className="sm:flex sm:items-center">
                 <div className="sm:flex-auto">
                   <h3 className="text-xl font-semibold text-gray-900 dark:text-white">
@@ -103,9 +103,9 @@ export default function PerformancePage() {
             </div>
           </div>
         </div>
-        <div className="my-10">
+        <div className="mb-10 mt-20">
           <section className="space-y-4 text-center">
-            <h2 className="text-3xl font-bold">
+            <h2 className="text-3xl font-bold dark:text-white">
               Ready to Build on Veil Protocol?
             </h2>
             <p className="mx-auto max-w-3xl text-xl text-gray-400">

@@ -7,7 +7,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const BenefitsPage = () => {
   return (
-    <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-20">
+    <section className="overflow-hidden pb-20 pt-15 md:pt-20 xl:pb-15 xl:pt-20">
       <div className="-mb-20 mt-20">
         <SectionHeader
           headerInfo={{
@@ -27,8 +27,8 @@ const BenefitsPage = () => {
             description: "",
           }}
         />
-        <div className="mt-20 flex justify-center">
-          <div className="overflow-x-auto rounded-lg shadow-md md:w-4/5 lg:w-2/3">
+        <div className="mt-20 flex justify-center overflow-x-auto">
+          <div className="mx-5 w-full overflow-y-auto rounded-lg shadow-md sm:mx-5 md:w-4/5 lg:w-2/3">
             <table className="min-w-full text-left text-sm text-gray-700">
               <thead className="bg-gray-200 text-xl uppercase text-gray-600 dark:bg-gray-700 dark:text-white">
                 <tr>
@@ -90,9 +90,9 @@ const BenefitsPage = () => {
           </div>
         </div>
       </div>
-      <div className="my-10">
+      <div className="mt-20">
         <section className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold">
+          <h2 className="text-3xl font-bold dark:text-white">
             Ready to Build on Veil Protocol?
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">

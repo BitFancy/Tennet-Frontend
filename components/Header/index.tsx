@@ -53,7 +53,7 @@ const Header = () => {
                 height={35}
                 className="dark:hidden"
               />
-              <span className="text-3xl">Veil Protocol</span>
+              <span className="text-3xl dark:text-white">Veil Protocol</span>
             </div>
           </a>
 
@@ -143,7 +143,7 @@ const Header = () => {
                       className={
                         pathUrl === menuItem.path
                           ? "font-bold text-gray-800 hover:font-bold hover:text-gray-900 dark:text-white"
-                          : "hover:font-bold hover:text-black"
+                          : "hover:font-bold hover:text-black dark:hover:text-white"
                       }
                     >
                       {menuItem.title}

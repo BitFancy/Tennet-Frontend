@@ -26,7 +26,7 @@ const Footer = () => {
                 whileInView="visible"
                 transition={{ duration: 1, delay: 0.5 }}
                 viewport={{ once: true }}
-                className="animate_top w-1/2 lg:w-1/4"
+                className="animate_top w-full sm:w-full md:w-full lg:w-1/4"
               >
                 <a href="/" className="relative text-2xl font-bold">
                   <div className="flex flex-row items-center gap-2 font-bold">
@@ -44,21 +44,19 @@ const Footer = () => {
                       height={35}
                       className="dark:hidden"
                     />
-                    <span className="text-3xl">Veil Protocol</span>
+                    <span className="text-3xl dark:text-white">
+                      Veil Protocol
+                    </span>
                   </div>
                 </a>
 
-                <p className="mb-10 mt-5">
+                <p className="mb-10 mt-5 w-full">
                   Discover a new era of AI that is efficient, scalable, and
                   private, directly from your device.
                 </p>
-
-                <p className="mb-1.5 text-sectiontitle uppercase tracking-[5px]">
-                  contact
-                </p>
                 <a
-                  href="#"
-                  className="text-itemtitle font-medium text-black dark:text-white"
+                  href="/support"
+                  className="text-xl font-medium text-black dark:text-gray-400"
                 >
                   contact@veilprotocol.com
                 </a>

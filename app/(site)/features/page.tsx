@@ -8,7 +8,7 @@ import { FaArrowRight } from "react-icons/fa";
 
 const FeaturesPage = () => {
   return (
-    <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-20">
+    <section className="overflow-hidden pb-10 pt-15 md:pt-20 xl:pb-25 xl:pt-20">
       <div className="-mb-20 mt-20">
         <SectionHeader
           headerInfo={{

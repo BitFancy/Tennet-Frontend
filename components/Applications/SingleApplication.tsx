@@ -2,7 +2,6 @@ import React from "react";
 import { Application } from "@/types/application";
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { IconBase } from "react-icons";
 
 const SingleApplication = ({ application }: { application: Application }) => {
   const { title, icon, description, imagePosition, image } = application;

@@ -43,7 +43,7 @@ export default function Home() {
         />
       </div>
       <section className="mx-auto mb-20 mt-10 max-w-4xl rounded-lg bg-gray-800 p-8">
-        <h2 className="mb-6 text-center text-3xl font-semibold">
+        <h2 className="mb-6 text-center text-3xl font-semibold dark:text-white">
           A Secure Foundation for Decentralized AI
         </h2>
         <p className="mb-6 text-lg text-gray-300">
@@ -84,7 +84,7 @@ export default function Home() {
       {/* <Pricing /> */}
       <div className="my-15">
         <section className="space-y-4 text-center">
-          <h2 className="text-3xl font-bold">
+          <h2 className="text-3xl font-bold dark:text-white">
             Ready to Build on Veil Protocol?
           </h2>
           <p className="mx-auto max-w-3xl text-xl text-gray-400">

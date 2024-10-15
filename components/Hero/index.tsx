@@ -12,12 +12,9 @@ const Hero = () => {
   return (
     <>
       <section className="overflow-hidden pb-20 pt-35 md:pt-40 xl:pb-25 xl:pt-46">
-        <div className="mb-20 relative mt-30 flex w-full flex-col">
+        <div className="relative mb-20 mt-30 flex w-full flex-col">
           <h1 className="space-y-6 py-10 text-center">
-            <span
-              className="mb-5 pr-16 font-bold text-black dark:text-white"
-              style={{ fontSize: "80px", lineHeight: "100px" }}
-            >
+            <span className="mb-5 text-center text-5xl font-bold text-black dark:text-white sm:text-5xl md:text-5xl lg:text-7xl">
               AI Power, Decentralized
             </span>
           </h1>

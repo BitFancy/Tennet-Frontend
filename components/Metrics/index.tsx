@@ -34,11 +34,11 @@ const Metric = ({ metric }: { metric: METRIC }) => {
           whileInView="visible"
           transition={{ duration: 1, delay: 0.1 }}
           viewport={{ once: true }}
-          className="animate_right relative mx-auto hidden aspect-[588/526.5] md:block md:w-4/5"
+          className="animate_right relative mx-auto md:block md:w-4/5"
         >
           <div
             key={name}
-            className="dark: overflow-hidden rounded-lg bg-white text-white shadow dark:bg-gray-400"
+            className="overflow-hidden rounded-md bg-white text-white shadow dark:bg-gray-400"
           >
             <div className="p-5">
               <div className="flex items-center">

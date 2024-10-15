@@ -32,15 +32,12 @@ const features = [
 export default function ProductsPage() {
   return (
     <div className="bg-white dark:bg-black">
-      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-24 lg:px-8">
+      <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 sm:py-14 lg:px-8">
         <div className="mt-20 text-left">
           <h1 className="text-base font-semibold uppercase tracking-wide text-gray-600">
             The Decentralized AI Engine for Everyone
           </h1>
-          <span
-            className="mt-1 text-4xl font-extrabold text-gray-900 dark:text-white sm:text-5xl sm:tracking-tight lg:text-6xl"
-            style={{ fontSize: "100px" }}
-          >
+          <span className="mt-1 text-5xl font-extrabold text-gray-900 dark:text-white sm:text-6xl sm:tracking-tight md:text-6xl lg:text-7xl">
             Tennet™
           </span>
           <p className=" mt-5 text-left text-xl  text-gray-500 lg:w-1/2 xl:w-1/2">
@@ -61,7 +58,7 @@ export default function ProductsPage() {
         <div className="mt-16 overflow-hidden rounded-lg bg-gray-50 shadow-lg">
           <div className="relative mx-auto max-w-7xl px-4 py-8 dark:bg-gray-700 sm:px-6 lg:px-8 lg:py-12">
             <div className="flex flex-col items-center justify-center text-center">
-              <h3 className="text-center text-5xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
+              <h3 className="text-center text-3xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-3xl md:text-4xl lg:text-5xl">
                 Next-gen decentralized AI
               </h3>
               <p className="mt-3 text-center text-lg text-gray-500 dark:text-gray-300 lg:w-1/2">
@@ -109,7 +106,7 @@ export default function ProductsPage() {
         <div className="mt-12 sm:mt-16 lg:mt-20">
           <div className="lg:grid lg:grid-cols-3 lg:items-center lg:gap-8">
             <div className="lg:col-span-2">
-              <h3 className="text-5xl font-extrabold tracking-tight text-gray-900 sm:text-5xl dark:text-white">
+              <h3 className="text-4xl font-extrabold tracking-tight text-gray-900 dark:text-white sm:text-5xl">
                 Use Cases
               </h3>
               <p className="mt-3 text-lg text-gray-500">
@@ -157,7 +154,7 @@ export default function ProductsPage() {
             </div>
           </div>
         </div>
-        <div className="my-10">
+        <div className="mt-20">
           <section className="space-y-4 text-center">
             <h2 className="text-3xl font-bold dark:text-white">
               Ready to Build on Veil Protocol?
@@ -169,7 +166,7 @@ export default function ProductsPage() {
             <div className="flex justify-center">
               <a
                 href="/support"
-                className="inline-flex items-center gap-2.5 rounded-md bg-gray-700 px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-gray-700 dark:text-white"
+                className="inline-flex items-center gap-2.5 rounded-md bg-gray-700 px-6 py-3 font-medium text-white hover:opacity-90 dark:bg-white dark:text-gray-700"
               >
                 Get Started
                 <FaArrowRight />
