@@ -51,7 +51,7 @@ const SingleApplication = ({ application }: { application: Application }) => {
                 </p>
                 <a
                   href="/support"
-                  className="flex items-center font-semibold text-gray-200"
+                  className="flex items-center font-semibold text-gray-500 dark:text-gray-300"
                 >
                   READ MORE
                   <svg

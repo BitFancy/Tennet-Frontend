@@ -157,7 +157,7 @@ const Header = () => {
           <div className="mt-7 flex items-center gap-6 xl:mt-0">
             <Link
               href="/support"
-              className="flex items-center justify-center rounded-md bg-gray-500 px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-gray-700"
+              className="flex items-center justify-center rounded-md bg-gray-900 px-7.5 py-2.5 text-regular text-white duration-300 ease-in-out hover:bg-gray-700 dark:bg-white dark:text-gray-900"
             >
               Contact Us
             </Link>
